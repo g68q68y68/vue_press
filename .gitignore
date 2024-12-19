@@ -4,3 +4,49 @@
 .vuepress/.cache
 # VuePress 默认构建生成的静态文件目录
 .vuepress/dist
+
+# Dependencies
+node_modules/
+
+# Production
+docs/.vuepress/dist/
+
+# Generated files
+.temp/
+.cache/
+
+# IDE / Editor directories
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# VuePress temporary files
+**/vuepress/.temp/
+**/vuepress/.cache/
+**/vuepress/dist/
+
+# Local env files
+.env.local
+.env.*.local
+
+# Package manager
+.yarn/
+yarn.lock
+package-lock.json
+pnpm-lock.yaml

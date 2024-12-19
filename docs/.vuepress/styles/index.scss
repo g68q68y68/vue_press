@@ -1,0 +1,25 @@
+// 自定义样式
+:root {
+  // 自定义颜色
+  --c-brand: #3eaf7c;
+  --c-brand-light: #4abf8a;
+  
+  // 自定义字体
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+// 深色模式
+html.dark {
+  --c-brand: #3aa675;
+  --c-brand-light: #349469;
+}
+
+// 响应式布局
+@media (max-width: 719px) {
+  .theme-container {
+    .sidebar {
+      width: 100%;
+    }
+  }
+} 
